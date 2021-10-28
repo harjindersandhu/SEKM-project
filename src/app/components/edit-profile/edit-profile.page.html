@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>MODIFICA PROFILO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <div class="container">
+    <form [formGroup]="userForm" *ngIf="canRender; else loading">
+      <div class="sub-container">
+        <!--NAME FIELD -->
+        <mat-form-field appearance="outline">
+          <mat-label>Nome</mat-label>
+          <input matInput placeholder="Name" formControlName="name" required>
+          <mat-error *ngIf="userForm.get('name').invalid">{{getErrorMessageName()}}</mat-error>
+        </mat-form-field>
+        <!--SURNAME FIELD -->
+        <mat-form-field appearance="outline">
+          <mat-label>Cognome</mat-label>
+          <input matInput placeholder="Surname" formControlName="surname" required>
+          <mat-error *ngIf="userForm.get('surname').invalid">{{getErrorMessageSurname()}}</mat-error>
+        </mat-form-field>
+        <!--EMAIL FIELD -->
+        <mat-form-field appearance="outline">
+          <mat-label>E-mail</mat-label>
+          <input matInput placeholder="Email" formControlName="email" required>
+          <mat-error *ngIf="userForm.get('email').invalid">{{getErrorMessageEmail()}}</mat-error>
+        </mat-form-field>
+        <!--ADDRESS FIELD -->
+        <mat-form-field appearance="outline">
+          <mat-label>Indirizzo</mat-label>
+          <input matInput placeholder="Indirizzo" formControlName="address">
+        </mat-form-field>
+        <!--PASSWORD FIELD -->
+        <mat-form-field appearance="outline" [hidden]="show">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Password" [type]="hide ? 'password' : 'text'" formControlName="password">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <div class="hide-show">
+          <button mat-button [hidden]="!show" (click)="pswField()">Mostra Password</button>
+          <button mat-button [hidden]="show" (click)="pswField()">Nascondi Password</button>
+        </div>
+      </div>
+      <div class="button-fields">
+        <div class="button-confirm">
+          <button mat-raised-button color="primary" style="outline: none" (click)="updateUser()" [disabled]="!userForm.valid">Modifica</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <ng-template #loading class="spinner-container">
+    <ion-spinner name="circles"></ion-spinner>
+  </ng-template>
+</ion-content>

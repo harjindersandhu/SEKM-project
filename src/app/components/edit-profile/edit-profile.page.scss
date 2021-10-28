@@ -1,0 +1,46 @@
+.container{
+  width: 320px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+.sub-container .mat-form-field{
+  width: 100%;
+}
+.button-fields {
+  width: 100%;
+  margin-top: 20px;
+}
+.button-confirm {
+  float: right;
+}
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+  color: black;
+  background-color: #43A047;
+}
+.mat-button {
+  color: #43A047;
+}
+.hide-show {
+  text-align: center;
+}
+.hide-show button{
+  outline: none;
+}
+/* focused color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #43A047;
+}
+/* floating label color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #43A047;
+}
+
+ion-spinner {
+  display: fixed;
+  top: 47%;
+  left: 47%;
+  transform: translate(-53%, -53%);
+  transform: scale(2);
+}

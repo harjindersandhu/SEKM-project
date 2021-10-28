@@ -1,0 +1,2080 @@
+[{
+"name": "Abiti inutilizzabili",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Abiti usati",
+"type": "Contenitore specifico/Centro di raccolta",
+"img_type": 8
+},
+{
+"name": "Accendino",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Acetone",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Acidi",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Acquario",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Addobbi natalizi elettrici",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Addobbi natalizi non elettrici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Adesivi",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Agenda di carta e/o di cartoncino",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Aghi",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Albero di natale vegetale",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Albero di natale sintetico",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Alimenti avariati",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Alimenti - scarti",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Amianto",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Antiparassitari",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Antiruggine",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Antitarlo",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Apparecchiature elettroniche - grandi",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Apparecchiature elettroniche - piccole",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Armadi",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Asciugacapelli (phon)",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Aspirapolvere",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Asse da stiro",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Assorbenti igenici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Astucci scolastici o per occhiali",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Astucci di rullini fotografici",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Avanzi di cibo",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Bacinelle e oggetti in plastica rigida",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Bambole",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Bambole con componenti elettroniche",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Bancali",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Bandiere senza asta",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Barattoli con simboli di pericolo",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Barattoli in plastica e metallo per alimenti",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Barattoli in vetro per alimenti",
+"type": "Imballaggi e contenitori/Vetro",
+"img_type": 14
+},
+{
+"name": "Bastoncini cotonati usa e getta",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Batterie auto",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Batterie per cellulari",
+"type": "Rivenditori autorizzati/centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Bauli",
+"type": "Centro di racolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Bicchieri in cristallo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Bicchieri in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Bicchieri in vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Bicicletta",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Bigiotteria",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Biglie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Bilancia elettronica",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Bilancia pesa persone elettronica",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Bilancia pesa persone tradizionale",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Binaretti in alluminio per tendine",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Bistecchiera - piastra di ghisa",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Bistecchiera elettrica",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Blister di medicinali",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Boiler elettrico",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Bombole del gas",
+"type": "Rivenditori autorizzati",
+"img_type": 15
+},
+{
+"name": "Bomboletta spray esaurita",
+"type": "Imballaggi e contenitori/Centro di raccolta",
+"img_type": 13
+},
+{
+"name": "Bomboletta spray non esaurita o con simboli di pericolo",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Borse inutilizzabili",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Borse usate",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Bottiglie in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Bottiglie in vetro",
+"type": "Imballaggi e contenitori/Vetro",
+"img_type": 14
+},
+{
+"name": "Bottoni",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Bulloneria e chiodi",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Buste di carta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Buste di nylon",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Bustine tè",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Calcinacci",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Calcolatrice",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Calendario in carta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Campioncini vuoti di prodotti cosmetici",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Cancelleria (matite,penne,bianchetto etc.)",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Candele",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Canne o gomme da irrigazione",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Cannucce",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Capelli",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cappelli",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Capsule caffè in alluminio e plastica",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Caraffe in ceramica o terracotta",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Caraffe in vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Carboni attivi",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta assorbente da cucina bagnata o unta di cibo",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Carta carbone",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta catramata",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Carta da forno",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta da pacchi",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Carta del pane pulita",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Carta lucida da disegno",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta per affettati e formaggi",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Carta sporca di prodotti detergenti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta stagnola da cucina",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Carta termica per fax",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Carta vetrata",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cartone della pizza sporco",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Cartone della pizza molto sporco",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cartone ondulato",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Cartongesso",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Cartone per bevande ed alimenti (tetrapak)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Cartonlegno per modellismo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cartucce da caccia esplose",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cartucce per stampanti",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Casco per bici e moto",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cassette audio e video con custodie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cassette in cartone per ortofrutta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Cassette in legno per ortofrutta",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cassette in plastica per ortofrutta",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Caucciù - piccoli accessori",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cavi elettrici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "CD e relative custodie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cellophane",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Cellulare",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Cenere spenta",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cera",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Ceramica e porcellana",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Cerchioni di auto e moto",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Cereali",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cerotti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cesto in vimini",
+"type": "Organico/Centro di raccolta",
+"img_type": 12
+},
+{
+"name": "Cialde in carta per caffè o tè",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cibo - scarti",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Cintura",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Colla chimica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Computer",
+"type": "Riventitori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Condizionatore",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro Ingombranti",
+"img_type": 11
+},
+{
+"name": "Confezioni in cartone (sale, zucchero, uova etc.)",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Confezioni in plastica (busta per la pasta, involucro merendine etc.)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Confezioni sagomate in plastica per uova, dolciumi, giocattoli",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Congelatore",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro Ingombranti",
+"img_type": 11
+},
+{
+"name": "Contenitori di prodotti liquidi per la pulizia della casa e l'igiene personale",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Contenitori etichettati con simboli di pericolo",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Contenitori in poliaccoppiato - tetrapak (latte, succhi di frutta, vino etc.)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Contenitori per lo yogurt e dessert",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Coperte",
+"type": "Centro di raccolta/Contenitori specifici",
+"img_type": 8
+},
+{
+"name": "Coppette di gelato in carta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Coppette di gelato in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Cornici in legno naturale",
+"type": "Organico/Centro di raccolta",
+"img_type": 12
+},
+{
+"name": "Cornici in plastica o legno trattato",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Cosmetici (contenitori vuoti)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Cotone idrofilo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cottonfioc",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cover di cellulari",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cristallo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Cuscino - imbottitura",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Damigiana",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Decoder",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Depliant",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Diluente",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Dischetti o batuffoli di cotone usati",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Dischi in vinile",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Diserbante",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Divano",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Dvd e relative custodie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Elastici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Elettrodomestici di piccole dimensioni (tostapane, fornetto, rasoio etc.)",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Elettrodomestici di grandi dimensioni",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Erba e sfalci - grandi quantità",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Erba e sfalci - piccole quantità",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Escrementi animali",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Eternit",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Etichette adesive o di indumenti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Faretti",
+"type": "Rivenditori autorizzati/Centri di raccolta",
+"img_type": 9
+},
+{
+"name": "Farmaci scaduti",
+"type": "Centro di raccolta/Contenitori specifici",
+"img_type": 8
+},
+{
+"name": "Fazzoletti di carta sporchi o con materiale oreganico",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Feltrini",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Ferro da stiro",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Ferro - manufatti",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Fiale in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Fiale in vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Fili elettrici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Filo per cucire",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Filo interdentale",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Filtro caraffa acqua",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Filtro tè, camomilla, tisane",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Filtro olio auto",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Finestre (infissi con vetro)",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Fiori finti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Fiori recisi secchi",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Flaconi in vetro",
+"type": "Imballaggi e contenitori/Vetro",
+"img_type": 14
+},
+{
+"name": "Flaconi in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Fogli in alluminio per alimenti",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Foglie secche",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Forcine",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Fornetto elettrico",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Forno elettrico",
+"type": "Rivenditori autorizzati/Centro di racoclta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Fotografie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Friggitrice",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Frigorifero",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Frullatore",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Giocattoli - con componenti elettriche ed elettroniche",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Giocattoli - senza componenti elettriche ed elettroniche",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Giochi in plastica da esterno - grandi dimensioni",
+"type": "Centro di raccolta/Ritiro Ingombranti",
+"img_type": 10
+},
+{
+"name": "Giornali",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Girello per bambini",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Gomma e gommapiuma",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Gomma da masticare",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Gratta e vinci",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Grattugia in metallo o plastica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Grattugia elettrica",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 5
+},
+{
+"name": "Grucce appendiabiti in ferro o plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Guaina bituminosa",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Guanti in gomma",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Imballaggi di carta o cartone",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Incensi",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Indumenti inutilizzabili",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Indumenti usati",
+"type": "Centri di raccolta/Contenitori specifici",
+"img_type": 8
+},
+{
+"name": "Inerti",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Infissi in legno ed alluminio",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Insetticida",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Lacci per scarpe",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lamette",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lampadario",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Lampadine al neon ed a risparmio energetico (integre)",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Lampadine tradizionali",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lana di vetro e di roccia",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Lastre di vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Lastre radiografiche - radiografie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lattine per bevande",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Lavastoviglie",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Lavatrice",
+"type": "Rivenditori autorizzati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Legno da potature - grandi quantità",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Legno da potature - piccole quantità",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Legno verniciato",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Lenti a contatto",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lenza da pesca",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lettiera per animali domestici - naturale e compostabile",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Lettiera per animali domestici - sintetica",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Lettore cd o dvd",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Libri",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Limette per unghie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Mastici",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Materassi",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Matite di legno",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Mattoni e mattonelle",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Medicinali scaduti",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Mensole in legno o plastica",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Mensole in vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Mensole in legno o plastica",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Mollette per bucato",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Monitor",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Motorini",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Mozziconi di sigaretta e sigari",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Multiball (plastica da imballaggio)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Nastro adesivo o da pacco",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Negativi fotografici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Nylon e plastica in film da imballaggio",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Occhiali",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Olio alimentare",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Olio motore",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Ombrelli",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Ombrelloni",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Ovatta",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Pacco biscotti in poliaccoppiato",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Padelle",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Paglia",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Pallets",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Palloni da gioco",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Panni elettrostatici per la polvere ",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Pannolini e pannoloni",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Parabrezza cicli e motocicli",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Parquet",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Pavimento gommato - linoleum",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Pedane in legno",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Pedane in plastica",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Peli di animali",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Pelle per pulizia auto",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Pellicole e film per alimenti",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Peluche",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Penne e pennarelli",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Penne e piume naturali",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Pentole",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Pettini e spazzole",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Piante",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Piastrelle",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Piastrine per zanzare",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Piatti e tazze in ceramica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Piatti in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Pile esauste",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Piombi per pesca",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Pirofile in vetroceramica - pyrex",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Plexiglass",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Pluriball",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Pneumatici auto e moto",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Pneumatici bicicletta",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Polistirolo per alimenti",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Polistirolo per imballaggi - preforme e chips",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Polistirolo isolante",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Poltrone",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Polvere",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Porte in ferro, legno o plastica",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Posacenere",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Posate in acciaio",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Posate in plastica",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Profilattici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Profumi in vetro - contenitori vuoti",
+"type": "Imballaggi e contenitori/Vetro",
+"img_type": 14
+},
+{
+"name": "Pure pack - tipo di imballaggio",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Quaderni",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Quadri",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Racchette da gioco",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Radio e radioline a transistor",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Rafia",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Rami da potature - grandi quantità",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Rami da potature - piccole quantità",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Rasoio elettrico",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Reggette",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Reti da letto",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Retine per frutta e verdura",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Riviste - senza involucro plastico",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Rocchetti di filo in plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Rotolo interno di carta assorbente",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Rubinetteria",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Rullini fotografici",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Sacchetti dell'asporapolvere",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Sacchetti di carta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Sacchetti e sacchi di plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Salviette umidificate e detergenti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Sanitari (bidet, lavabo, wc)",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Sapone",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Scaffali in ferro e legno",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Scarpe e sandali inutilizzabili",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Scarpe e sandali usati",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Scatole e scatoloni in carta e cartone",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Scatolette per alimenti (tonno, pelati etc.)",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Sci e scarponi da sci",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Sciarpe",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Scontrini fiscali e fax su carta termica",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Scopa sintetica - spazzola",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Scopa saggina",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Secchielli in plastica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Sedie e sdraio in legno",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Segatura",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Segatura contaminata da materiale non organico",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Seggiolone per bambini",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Sigarette",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Silicone",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Siringhe con tappo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Smacchiatore",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Smalto per unghie",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Solvente",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Spago",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Spazzole tergicristallo",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Spazzolino da denti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Spazzolino da denti elettrico",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Specchi grandi",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Specchi piccoli",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Spugne",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Stampanti",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Stecco per gelati in legno",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Stendibiancheria",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Stereo",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Stoffa",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Stoffa - piccoli ritagli",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Stoviglie in carta",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Stoviglie in ceramica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Stoviglie in plastica - escluso posate",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Stracci",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Strumenti musicali",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Stuzzicadenti",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Sughero",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Sveglie",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Taglieri in legno",
+"type": "Organico/Centro di raccolta",
+"img_type": 12
+},
+{
+"name": "Taglieri in plastica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Tampone per timbri",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Taniche per uso domestico",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Tapparelle",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Tappeti in gomma o tessuto",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Tappezzeria",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Tappi a corona, di metallo o plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Tappi di silicone",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Tappi di sughero",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Tastiera per computer",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Tavolo in legno, metallo o plastica",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Tazze e tazzine",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Tegami",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Telefono",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Televisore",
+"type": "Rivenditori autorizati/Centro di raccolta/Ritiro ingombranti",
+"img_type": 11
+},
+{
+"name": "Termometro al mercurio",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Termometro digitale",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Terracotta - vasellame",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Terriccio",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Tessere e card plastificate",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Tessuto non tessuto",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Toner per stampanti",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Topicida",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Tovaglioli bagnati o unti di cibo",
+"type": "Organico",
+"img_type": 1
+},
+{
+"name": "Tovaglioli contaminati con detergenti",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Triciclo",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Trielina",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Tronchi di albero",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Trucchi - imballaggi vuoti di cosmetici",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Tubetti di dentifricio",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Tubetti per uso alimentare",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Tubi in alluminio o ferro",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Tubi in gomma o plastica",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Valigie",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vasca da bagno",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Vaschette e vasetti alimentari in alluminio, oftene e plastica",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Vaschette per microonde",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Vasi e fioriere in terracotta - grandi dimensioni",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Vasi e fioriere in terracotta - piccole dimensioni",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vasi in plastica per fiori e piante",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vasi in vetro",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vassoi in polistirolo per alimenti",
+"type": "Imballaggi e contenitori",
+"img_type": 4
+},
+{
+"name": "Vassoi di carta per dolci",
+"type": "Carta e cartone",
+"img_type": 2
+},
+{
+"name": "Vernici",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vestiti inutilizzabili",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Vestiti usati",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Vetri rotti",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Vetro blindato",
+"type": "Ditte specializzate",
+"img_type": 7
+},
+{
+"name": "Videocassette",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Videoregistratore",
+"type": "Rivenditori autorizzati/Centro di raccolta",
+"img_type": 9
+},
+{
+"name": "Zaini inutilizzati",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Zaini usati",
+"type": "Centro di raccolta/Contenitore specifico",
+"img_type": 8
+},
+{
+"name": "Zampironi",
+"type": "Centro di raccolta",
+"img_type": 6
+},
+{
+"name": "Zanzariera con telaio",
+"type": "Centro di raccolta/Ritiro ingombranti",
+"img_type": 10
+},
+{
+"name": "Zanzariera senza telaio",
+"type": "Indifferenziato",
+"img_type": 5
+},
+{
+"name": "Zerbino",
+"type": "Indifferenziato",
+"img_type": 5
+}]

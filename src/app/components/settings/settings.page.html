@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Impostazioni</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+ <div class="container">
+   <ion-item lines="none" color="secondary">
+     <ion-label class="title">Notifiche</ion-label>
+   </ion-item>
+   <ion-item lines="none" color="secondary">
+     <ion-label>Attiva notifiche</ion-label>
+     <ion-toggle [(ngModel)]="check" (click)="notification_toggle()"></ion-toggle>
+   </ion-item>
+   <ion-item lines="none" color="secondary" [disabled]="enabled">
+     <ion-label>Ricevi notifiche:</ion-label>
+   </ion-item>
+   <ion-list lines="none" *ngFor="let nt of notification_time">
+     <ion-item color="secondary" [disabled]="enabled">
+       <ion-label>{{nt.val}}</ion-label>
+       <ion-checkbox slot="end" [(ngModel)]="nt.isChecked" (click)="checkbox()"></ion-checkbox>
+     </ion-item>
+   </ion-list>
+   <div class="delete-account" *ngIf="isLoggedIn()">
+     <ion-button color="danger" expand="block" (click)="presentAlertDelete()">Elimina Account</ion-button>
+   </div>
+ </div>
+</ion-content>
+<ion-footer [hidden]="save">
+  <div class="save-button">
+      <ion-button expand="block" shape="round" (click)="save_settings()">Salva impostazioni</ion-button>
+  </div>
+</ion-footer>

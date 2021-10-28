@@ -1,0 +1,38 @@
+<ion-app >
+  <ion-menu side="start"  contentId="menuContent" class="menu" menuId="custom">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <div class="toolbar-container"><h2>SEKM PROJECT</h2></div>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content color="secondary">
+        <ion-list lines="full">
+        <ion-menu-toggle auto-hide="true">
+          <ion-item routerLink = "/profile" routerDirection="forward" routerLinkActive="active" *ngIf="checkToken()" color="secondary">
+            <mat-icon class = "material-icons" slot="start">account_circle</mat-icon>
+            <div class ="titles"> Profilo </div>
+          </ion-item>
+          <ion-item routerLink = "/settings" routerDirection="forward" routerLinkActive="active" color="secondary">
+            <mat-icon class = "material-icons" slot="start">settings</mat-icon>
+            <div class ="titles"> Impostazioni </div>
+          </ion-item>
+        </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    <ion-footer class="ion-no-border">
+      <mat-divider></mat-divider>
+      <ion-item routerLinkActive="active" (click)="logout()" lines="full" *ngIf="checkToken()" color="secondary">
+        <mat-icon class = "material-icons" slot="start">logout</mat-icon>
+        <div class ="titles"> Log Out </div>
+      </ion-item>
+      <ion-item routerLinkActive="active" (click)="login()" lines="full" *ngIf="!checkToken()" color="secondary">
+        <mat-icon class = "material-icons" slot="start">login</mat-icon>
+        <div class ="titles"> Log In </div>
+      </ion-item>
+    </ion-footer>
+    </ion-menu>
+<ion-router-outlet id="menuContent"></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: #0d0d0d"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Profilo</ion-title>
+    <ion-buttons slot = "end">
+      <ion-button (click) = "openPopover($event)">
+        <ion-icon name = "ellipsis-vertical-outline" > </ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <div *ngIf="canRender; else loading">
+    <ion-card color="tertiary">
+      <ion-card-header>
+        <ion-card-title>Dettagli utente</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <div class = "profile-container">
+          <div class ="photo">
+            <div class="circle">
+              <div class="initials">
+                  {{ user.name | slice:0:1 }}
+                  {{ user.surname | slice:0:1 }}
+              </div>
+            </div>
+          </div>
+
+          <div class = "details" slot ="end">
+            <ion-label class ="username-label">
+              <div class = "subtitle-main"> {{user.name}}</div>
+              <div class = "subtitle-main"> {{user.surname}}</div>
+              <div class = "subtitle-main"> {{user.address}}</div>
+            </ion-label>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <ng-template #loading class="spinner-container">
+    <ion-spinner name="circles"></ion-spinner>
+  </ng-template>
+</ion-content>

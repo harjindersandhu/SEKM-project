@@ -1,0 +1,69 @@
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 5%;
+}
+
+.status{
+  position: relative;
+  left: 30px;
+  top: 32px;
+}
+
+.photo{
+  margin-right: 20%;
+}
+
+.circle {
+  border-radius   : 50%;
+  width           : 90px;
+  height          : 90px;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  background-color: #43A047;
+
+  img{
+      border-radius: 50%;
+      width        : 60px;
+      height       : 60px;
+  }
+
+  .initials {
+    color: black;
+    font-size: 35px;
+    line-height: 18px;
+    letter-spacing: -1.7375px;
+    position: absolute;
+  }
+}
+
+.booking-list{
+  margin: 40px;
+}
+
+ion-card-title{
+  text-align: center;
+  color: black;
+}
+
+ion-card{
+  border-radius: 40px;
+}
+
+.subtitle-main{
+  color:black;
+  font-weight: bold;
+}
+
+ion-spinner {
+  display: fixed;
+  top: 47%;
+  left: 47%;
+  transform: translate(-53%, -53%);
+  transform: scale(2);
+}
+
+

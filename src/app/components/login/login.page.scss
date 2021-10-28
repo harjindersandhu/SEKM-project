@@ -1,0 +1,257 @@
+
+.container{
+  //text-align: center;
+  height: 100%;
+}
+.logo-app{
+    width: 132px;
+    height: 93px;
+    background: #43A047;
+    border-radius: 49px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    top: 180px;
+    position: relative;
+}
+
+.icon{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    width: 50%;
+}
+
+ion-img{
+    width: 100px;
+}
+
+.title{
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-family: system-ui;
+}
+
+.login{
+  margin: 0 auto;
+  position: relative;
+  top: 230px;
+  text-align: center;
+  font-size: 30px;
+  font-family: system-ui;
+}
+
+.login-form{
+  width: 280px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+}
+
+.account{
+  margin-top: 10px;
+  float: left;
+  width: 40px;
+}
+.account .mat-icon{
+  font-size: 35px;
+}
+.email{
+  float: left;
+  width: 240px;
+}
+.email .mat-form-field{
+  width: 100%;
+}
+.key{
+  margin-top: 10px;
+  float: left;
+  width: 40px;
+}
+.key .mat-icon{
+  font-size: 35px;
+}
+.psw{
+  float: left;
+  width: 240px;
+}
+.psw .mat-form-field{
+  width: 100%;
+}
+.button-submit{
+  width: 90px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  //background-color: #2dd36f;
+}
+.signup{
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-family: system-ui;
+}
+.no_account{
+  margin: 0 auto;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  font-size: 20px;
+  font-family: system-ui;
+}
+.signup a{
+  color: #43A047;
+}
+.no_account a{
+  color: #43A047;
+}
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+  color: black;
+  background-color: #43A047;
+}
+/* focused color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #43A047;
+}
+/* floating label color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #43A047;
+}
+@media screen and (max-device-height: 549px) {
+  .title{
+    top: 10px;
+    font-size: 28px;
+  }
+  .logo-app{
+    top: 50px;
+    width: 122px;
+    height: 83px;
+  }
+  .login{
+    top: 80px;
+    font-size: 28px;
+  }
+  .login-form{
+    top: 100px;
+  }
+  .signup{
+    top: 110px;
+    font-size: 12px;
+  }
+  .no_account{
+    top: 140px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-device-height: 550px) and (max-device-height: 600px) {
+
+}
+@media screen and (min-device-height: 601px) and (max-device-height: 650px) {
+  .title{
+    top: 60px;
+  }
+  .logo-app{
+    top: 100px;
+  }
+  .login{
+    top: 130px;
+  }
+  .login-form{
+    top: 150px;
+  }
+  .signup{
+    top: 180px;
+  }
+  .no_account{
+    top: 220px;
+  }
+}
+@media screen and (min-device-height: 651px) and (max-device-height: 700px) {
+  .title{
+    top: 70px;
+  }
+  .logo-app{
+    top: 110px;
+  }
+  .login{
+    top: 140px;
+  }
+  .login-form{
+    top: 160px;
+  }
+  .signup{
+    top: 190px;
+  }
+  .no_account{
+    top: 230px;
+  }
+}
+@media screen and (min-device-height: 701px) and (max-device-height: 750px){
+  .title{
+    top: 90px;
+  }
+  .logo-app{
+    top: 150px;
+  }
+  .login{
+    top: 180px;
+  }
+  .login-form{
+    top: 200px;
+  }
+  .signup{
+    top: 230px;
+  }
+  .no_account{
+    top: 280px;
+  }
+}
+@media screen and (min-device-height: 751px) and (max-device-height: 800px){
+  .title{
+    top: 100px;
+  }
+  .logo-app{
+    top: 170px;
+  }
+  .login{
+    top: 210px;
+  }
+  .login-form{
+    top: 230px;
+  }
+  .signup{
+    top: 260px;
+  }
+  .no_account{
+    top: 310px;
+  }
+}
+@media screen and (min-device-height: 1024px){
+  .title{
+    top: 120px;
+  }
+  .logo-app{
+    top: 210px;
+  }
+  .login{
+    top: 270px;
+  }
+  .login-form{
+    top: 320px;
+  }
+  .signup{
+    top: 360px;
+  }
+  .no_account{
+    top: 420px;
+  }
+}

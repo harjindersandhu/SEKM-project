@@ -1,0 +1,64 @@
+.scroll-content{
+  overflow-y: hidden;
+}
+ion-menu-button{
+  font-size: 35px;
+  color: black;
+}
+.toolbar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.titles{
+  font-size: large;
+}
+
+.material-icons{
+  color: #43A047;
+  font-size: 25px;
+}
+ion-list{
+  margin-top: -8px;
+  background: transparent;
+}
+ion-item{
+  --min-height: 60px !important;
+  --border-color:  #A5D6A7 !important;
+}
+
+ion-footer{
+  ion-item{
+    border-top: #A5D6A7 !important;
+  }
+}
+.mat-divider{
+  border-color: #A5D6A7;
+}
+
+ion-item{
+  &.active{
+    padding: 0;
+  }
+
+.item-native{
+      background: none;
+  }
+}
+/* default and hover color
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: red;
+} */
+
+/* focused color
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #5B8647;
+}
+
+ floating label color
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #5B8647;
+}
+*/

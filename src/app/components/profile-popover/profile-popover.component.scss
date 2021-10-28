@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+ion-label{
+    margin-left: 35px;
+    margin-bottom: 7px;
+}
+
+.material-icons{
+  font-family: 'Material Icons' !important;
+  font-size: 25px;
+  margin-bottom: 13px;
+  color: #43A047;
+}
+
+ion-icon{
+    font-size: 24px;
+ }
+
+ ion-item{
+    --ion-item-background: #E8F5E9;
+ }
+
+ion-list{
+    background: #E8F5E9;
+}
