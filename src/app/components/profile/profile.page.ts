@@ -6,7 +6,6 @@ import {Router} from "@angular/router";
 import {JwtStorageService} from "../../services/jwt-storage.service";
 import {HttpErrorResponse} from "@angular/common/http";
 import {Observable} from "rxjs";
-import { BookingService } from 'src/app/services/booking.service';
 import { Booking } from 'src/app/models/booking.model';
 import { NavController, PopoverController } from '@ionic/angular';
 import { ProfilePopoverComponent } from '../profile-popover/profile-popover.component';
@@ -42,14 +41,6 @@ export class ProfilePage implements OnInit {
 
   }
 
-  /* GET all bookings
-  protected getBookings(){
-    this._bookingService.getBookingByUserId(this.userId).subscribe(
-      data => {
-        this.bookings = data;
-        console.log("Prenotazioni", data);
-    })
-  }*/
 
   // GET Request for user selected
   protected getUserById(): void {

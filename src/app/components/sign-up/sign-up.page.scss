@@ -1,0 +1,37 @@
+.container{
+  width: 320px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+.sub-container .mat-form-field{
+  width: 100%;
+}
+.button-fields {
+  width: 100%;
+}
+.button-confirm {
+  float: right;
+}
+.button-goback {
+  float: left;
+}
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+  color: black;
+  background-color: #43A047;
+}
+/* focused color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #43A047;
+}
+/* floating label color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+  color: #43A047;
+}
+@media screen and (max-device-width: 320px) {
+  .container{
+    width: 260px;
+    height: 420px;
+  }
+}

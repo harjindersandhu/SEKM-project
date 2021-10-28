@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>REGISTRATI</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+    <div class="container">
+      <form [formGroup]="addUserForm">
+        <div class="sub-container">
+          <p class="require">(Campi con * sono obbligatori)</p>
+          <!--NAME FIELD-->
+          <mat-form-field appearance="outline">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Nome" formControlName="name" required>
+            <mat-error *ngIf="addUserForm.get('name').invalid">{{getErrorMessageName()}}</mat-error>
+          </mat-form-field>
+          <!--SURNAME FIELD-->
+          <mat-form-field appearance="outline">
+            <mat-label>Cognome</mat-label>
+            <input matInput placeholder="Cognome" formControlName="surname" required>
+            <mat-error *ngIf="addUserForm.get('surname').invalid">{{getErrorMessageSurname()}}</mat-error>
+          </mat-form-field>
+          <!--EMAIL FIELD-->
+          <mat-form-field appearance="outline">
+            <mat-label>E-mail</mat-label>
+            <input matInput placeholder="Email" formControlName="email" required>
+            <mat-error *ngIf="addUserForm.get('email').invalid">{{getErrorMessageEmail()}}</mat-error>
+          </mat-form-field>
+          <!--ADDRESS FIELD-->
+          <mat-form-field appearance="outline">
+            <mat-label>Indirizzo</mat-label>
+            <input matInput placeholder="Indirizzo" formControlName="address">
+          </mat-form-field>
+          <!--PASSWORD FIELD-->
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter the password" [type]="hide ? 'password' : 'text'" formControlName="password" required>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+            <mat-error *ngIf="addUserForm.get('password').invalid">{{getErrorMessagePassword()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="button-fields">
+          <div class="button-confirm">
+            <button mat-raised-button style="outline: none" (click)="createUser()" [disabled]="!addUserForm.valid">Conferma</button>
+          </div>
+          <div class="button-goback">
+            <button mat-raised-button style="outline: none" (click)="returnToLogin()">Annulla</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</ion-content>

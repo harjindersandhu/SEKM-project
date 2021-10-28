@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import {AuthGuard} from "./helpers/authguard";
-import { PopupComponent } from "./components/popup/popup.component";
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { LocalNotifications} from '@ionic-native/local-notifications/ngx'
@@ -19,8 +18,8 @@ import { MatInputModule } from '@angular/material/input';
 import { NgxMatDatetimePickerModule, NgxMatNativeDateModule, NgxMatTimepickerModule } from '@angular-material-components/datetime-picker';
 
 @NgModule({
-  declarations: [AppComponent,PopupComponent],
-  entryComponents: [PopupComponent],
+  declarations: [AppComponent],
+  entryComponents: [],
   imports: [BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,

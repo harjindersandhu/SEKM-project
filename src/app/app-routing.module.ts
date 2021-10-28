@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'settings',
     loadChildren: () => import('./components/settings/settings.module').then( m => m.SettingsPageModule)
   },
+  {
+    path: 'sign-up',
+    loadChildren: () => import('./components/sign-up/sign-up.module').then( m => m.SignUpPageModule)
+  },
 
 ];
 
