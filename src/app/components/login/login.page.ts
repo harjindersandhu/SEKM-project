@@ -28,16 +28,17 @@ export class LoginPage implements OnInit {
       }); }
 
   ngOnInit() {
+    
+  }
+
+  ionViewWillEnter(){
     /**
      * If user already logged in, biometric login is applied
      */
      if(this._jwtStorageService.isLoggedIn()){
       //this.router.navigate(['/profile']);
       try {
-          this.biometricLogin(
-              () => {this.router.navigate(['/profile'])},
-              () => {}
-            );
+          this.biometricLogin();
 
         } catch (error) {
           console.log('daiiii')
@@ -47,6 +48,7 @@ export class LoginPage implements OnInit {
     } else{
       this.menuCtrl.enable(false);
     }
+
   }
 
   login(): void {
@@ -72,23 +74,22 @@ export class LoginPage implements OnInit {
    * Login using fingerprint
    * @param credentials The stored Askme credentials
    */
-   biometricLogin(succes: () =>  any, error: () => any) {
+   biometricLogin() {
     this.faio.isAvailable().then((result) => {
       if (result === "finger" || result === "face" || result === 'biometric') {
         // Fingerprint or Face Auth is available
         this.faio
           .show({
-            // title: "Fingerprint Login", // (Android Only) | optional | Default: "<APP_NAME> Biometric Sign On"
-            // subtitle: "Fingerprint login", // (Android Only) | optional | Default: null
+            title: "Fingerprint Login", // (Android Only) | optional | Default: "<APP_NAME> Biometric Sign On"
+            subtitle: "Fingerprint login", // (Android Only) | optional | Default: null
             description: "Per favore effettua il login", // optional | Default: null
             fallbackButtonTitle: "Usa PIN", // optional | When disableBackup is false defaults to "Use Pin".
             // When disableBackup is true defaults to "Cancel"
             disableBackup: true, // optional | default: false
           })
           .then((res: any) => {
-            succes();
             // Fingerprint/Face was successfully verified
-            // this.login();
+            this.login();
           })
           .catch((error: any) => {
             error();

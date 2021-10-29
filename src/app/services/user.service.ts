@@ -12,10 +12,10 @@ const httpOptions = {
 })
 export class UserService {
 
-  private url: string = 'http://localhost:8000/user';
-  private signup: string = 'http://localhost:8000/signup';
-  //private url: string = 'https://ecb7-83-211-235-194.ngrok.io/user';
-  //private signup: string = 'https://ecb7-83-211-235-194.ngrok.io/signup';
+  //private url: string = 'http://localhost:8000/user';
+  //private signup: string = 'http://localhost:8000/signup';
+  private url: string = 'https://3dd2-151-40-146-166.ngrok.io/user';
+  private signup: string = 'https://3dd2-151-40-146-166.ngrok.io/signup';
 
   constructor(@Inject(HttpClient) protected http: HttpClient) { }
 
