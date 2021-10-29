@@ -26,6 +26,7 @@
     "@auth0/angular-jwt": "^5.0.2",
     "@capacitor/core": "3.0.0",
     "@ionic-native/core": "^5.33.1",
+    "@ionic-native/fingerprint-aio": "^5.36.0",
     "@ionic-native/local-notifications": "^5.33.1",
     "@ionic-native/native-storage": "^5.33.1",
     "@ionic/angular": "^5.5.2",
@@ -63,6 +64,7 @@
     "cordova-ios": "^6.2.0",
     "cordova-plugin-badge": "^0.8.8",
     "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-fingerprint-aio": "^4.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.2.1",
     "cordova-plugin-nativestorage": "^2.3.2",
@@ -94,7 +96,10 @@
       },
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-local-notification": {},
-      "cordova-plugin-nativestorage": {}
+      "cordova-plugin-nativestorage": {},
+      "cordova-plugin-fingerprint-aio": {
+        "FACEID_USAGE_DESCRIPTION": " "
+      }
     },
     "platforms": [
       "android",

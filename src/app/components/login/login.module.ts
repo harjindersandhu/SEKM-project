@@ -13,6 +13,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {LoginService} from "../../services/login.service";
+import { FingerprintAIO } from '@ionic-native/fingerprint-aio/ngx';
 
 @NgModule({
   imports: [
@@ -27,7 +28,7 @@ import {LoginService} from "../../services/login.service";
     MatButtonModule,
     HttpClientModule
   ],
-  providers: [LoginService],
+  providers: [LoginService, FingerprintAIO],
   declarations: [LoginPage]
 })
 export class LoginPageModule {}
