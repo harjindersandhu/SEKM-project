@@ -21,7 +21,11 @@ export class LoginPage implements OnInit {
     private router: Router, 
     private _jwtStorageService: JwtStorageService,
     private menuCtrl: MenuController,
-    private faio: FingerprintAIO) { }
+    private faio: FingerprintAIO) {
+      this.loginForm = new FormGroup({
+        email : new FormControl(null),
+        password : new FormControl(null),
+      }); }
 
   ngOnInit() {
     /**
@@ -29,20 +33,19 @@ export class LoginPage implements OnInit {
      */
      if(this._jwtStorageService.isLoggedIn()){
       //this.router.navigate(['/profile']);
-      //this.router.navigate(['/profile']);
-      this.faio.isAvailable().then(() => {
-        this.biometricLogin(
-          () => {this.router.navigate(['/profile'])},
-          () => {}
-        );
-      })
-    }
-    else{
+      try {
+          this.biometricLogin(
+              () => {this.router.navigate(['/profile'])},
+              () => {}
+            );
+
+        } catch (error) {
+          console.log('daiiii')
+          alert("already logged")
+          this.router.navigate(['/profile']);
+      }
+    } else{
       this.menuCtrl.enable(false);
-      this.loginForm = new FormGroup({
-        email : new FormControl(null),
-        password : new FormControl(null),
-      });
     }
   }
 
@@ -75,8 +78,8 @@ export class LoginPage implements OnInit {
         // Fingerprint or Face Auth is available
         this.faio
           .show({
-            title: "Fingerprint Login", // (Android Only) | optional | Default: "<APP_NAME> Biometric Sign On"
-            subtitle: "Fingerprint login", // (Android Only) | optional | Default: null
+            // title: "Fingerprint Login", // (Android Only) | optional | Default: "<APP_NAME> Biometric Sign On"
+            // subtitle: "Fingerprint login", // (Android Only) | optional | Default: null
             description: "Per favore effettua il login", // optional | Default: null
             fallbackButtonTitle: "Usa PIN", // optional | When disableBackup is false defaults to "Use Pin".
             // When disableBackup is true defaults to "Cancel"
