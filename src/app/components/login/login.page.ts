@@ -36,18 +36,10 @@ export class LoginPage implements OnInit {
      * If user already logged in, biometric login is applied
      */
      if(this._jwtStorageService.isLoggedIn()){
-      //this.router.navigate(['/profile']);
-      try {
           this.biometricLogin();
-
-        } catch (error) {
-          console.log('daiiii')
-          alert("already logged")
-          this.router.navigate(['/profile']);
-      }
-    } else{
+      } else{
       this.menuCtrl.enable(false);
-    }
+      }
 
   }
 
@@ -71,8 +63,7 @@ export class LoginPage implements OnInit {
   }
 
   /**
-   * Login using fingerprint
-   * @param credentials The stored Askme credentials
+   * Login using biometric
    */
    biometricLogin() {
     this.faio.isAvailable().then((result) => {
@@ -80,8 +71,8 @@ export class LoginPage implements OnInit {
         // Fingerprint or Face Auth is available
         this.faio
           .show({
-            title: "Fingerprint Login", // (Android Only) | optional | Default: "<APP_NAME> Biometric Sign On"
-            subtitle: "Fingerprint login", // (Android Only) | optional | Default: null
+            title: "Fingerprint Login", 
+            subtitle: "Fingerprint login", 
             description: "Per favore effettua il login", // optional | Default: null
             fallbackButtonTitle: "Usa PIN", // optional | When disableBackup is false defaults to "Use Pin".
             // When disableBackup is true defaults to "Cancel"
@@ -89,14 +80,18 @@ export class LoginPage implements OnInit {
           })
           .then((res: any) => {
             // Fingerprint/Face was successfully verified
-            this.login();
+            this.router.navigate(['/profile']);
           })
           .catch((error: any) => {
             error();
-            // console.log(error);
           });
       }
     });
    }
+
+  
+   
+
+   
   
 }

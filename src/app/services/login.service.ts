@@ -13,8 +13,8 @@ export class LoginService {
 
   constructor(@Inject(HttpClient) protected http: HttpClient) { }
 
-  //private url: string = 'http://localhost:8000/login';
-  private url: string = 'https://3dd2-151-40-146-166.ngrok.io/login';
+  private url: string = 'http://localhost:8000/login';
+  //private url: string = 'https://3dd2-151-40-146-166.ngrok.io/login';
 
   // send a POST request to the API with LOGIN Credentials
   public login(credentials): Observable<any>{
